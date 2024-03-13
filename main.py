@@ -1,7 +1,7 @@
-def check_word_in_list(word, word_list):
-    return word in word_list
-
-list1 = ['apple', 'banana', 'cat']
-searth = input()
-print(check_word_in_list(searth, list1))
-
+def generate(a, w, h):
+    return [[a] * w] * h
+a = 2
+w = 5
+h = 6
+res = generate(a, w, h)
+print(res)
